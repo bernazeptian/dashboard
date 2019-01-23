@@ -1,2 +1,2 @@
 # dashboard
-Front End Dashboard
+Frontend Dashboard
