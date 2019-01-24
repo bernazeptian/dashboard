@@ -30,7 +30,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 60px 0 30px 103px;
 }
 
 h1,
@@ -232,6 +232,56 @@ h6 {
 }
 
 #header #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Headerelse
+--------------------------------------------------------------*/
+
+#headerelse {
+  height: 61px;
+  padding: 14px 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  background: rgba(6, 12, 34, 0.98);
+}
+
+#headerelse.header-scrolled,
+#headerelse.header-fixed {
+  background: rgba(6, 12, 34, 0.98);
+  height: 58px;
+  padding: 10px 0;
+  transition: all 0.5s;
+}
+
+#headerelse #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#headerelse #logo h1 span {
+  color: #f00101;
+}
+
+#headerelse #logo h1 a,
+#headerelse #logo h1 a:hover {
+  color: #fff;
+}
+
+#headerelse #logo img {
   padding: 0;
   margin: 0;
   max-height: 40px;
@@ -1808,7 +1858,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #nav-menu-container {
     display: none;
   }
-  
+
 
   #mobile-nav-toggle {
     display: inline;
